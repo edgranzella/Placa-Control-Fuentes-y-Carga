@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "Rev01"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -648,7 +648,7 @@
         "uuid": "52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Q1-7,J1-10,R1-20,D1-12,#PWR1-40,C1-6,RV1-3,F1-2,H1-4,JP1-4,U1-7",
     "variants": []
   },
   "sheets": [
