@@ -1,0 +1,27 @@
+﻿# --- ARCHIVOS TEMPORALES Y RESPALDOS DE KICAD 10 ---
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+**/*-backups/*.zip
+*-cache*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+fp-info-cache
+~*.lck
+
+# --- CONFIGURACIONES LOCALES DE INTERFAZ Y ENTORNO ---
+*.kicad_prl
+*.kicad_user
+.history/
+
+# --- ARCHIVOS DE ENLACE Y REPORTES DE DISEÑO ---
+*.net
+*.dsn
+*.ses
+*.xml
+*.csv
+*.rpt
