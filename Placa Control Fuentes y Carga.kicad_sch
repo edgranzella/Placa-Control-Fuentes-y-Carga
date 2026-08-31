@@ -8308,12 +8308,6 @@
 		(uuid "0594c617-7ee7-4695-a30a-70e49ef52e59")
 	)
 	(junction
-		(at 34.29 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "074d4f77-5bf3-443f-bbc6-318206e622c3")
-	)
-	(junction
 		(at 88.265 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8354,12 +8348,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e7d11b3-fdf3-4353-97a2-2753b4d67cfe")
-	)
-	(junction
-		(at 52.705 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f33a6fa-e258-4749-8375-b6f54df22c77")
 	)
 	(junction
 		(at 224.79 94.615)
@@ -8500,16 +8488,16 @@
 		(uuid "5a09d4c6-1a50-4f37-b90b-ab708db4e0e9")
 	)
 	(junction
-		(at 52.705 22.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f884676-6ea5-4637-8da1-373a993c2671")
-	)
-	(junction
 		(at 186.055 92.075)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60844865-a929-448c-a9dc-383e7a7c94c8")
+	)
+	(junction
+		(at 93.345 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65d478ac-da2b-459e-a267-1371db8ac196")
 	)
 	(junction
 		(at 154.305 179.705)
@@ -8528,6 +8516,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7144fae4-4d32-4103-b8f1-2c61d1fe28cb")
+	)
+	(junction
+		(at 35.56 97.155)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74cd0182-5637-45a4-a368-26752a73bfb8")
 	)
 	(junction
 		(at 95.885 79.375)
@@ -8614,6 +8608,12 @@
 		(uuid "9aff006b-352b-4a38-a856-b56d995dd30c")
 	)
 	(junction
+		(at 34.29 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d66e00f-bac3-4af1-9305-81464b3c925c")
+	)
+	(junction
 		(at 108.585 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8668,10 +8668,22 @@
 		(uuid "b1729cca-f4d2-4a91-a0bf-618da13ea11b")
 	)
 	(junction
+		(at 33.655 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b175cee7-1fc3-450c-9be3-3afa2866598c")
+	)
+	(junction
 		(at 149.86 192.405)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5244f42-1f78-430b-b002-6e51ea3f331b")
+	)
+	(junction
+		(at 108.585 182.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd9789c9-cb60-4745-9bdc-f9397c1a7bdb")
 	)
 	(junction
 		(at 99.695 182.88)
@@ -8684,12 +8696,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4b91ccc-5e13-439b-ba04-3522fd34933b")
-	)
-	(junction
-		(at 33.655 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c4c263d9-18db-4bf8-ac53-45cc8cdbf95e")
 	)
 	(junction
 		(at 200.025 150.495)
@@ -9039,7 +9045,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 150.495) (xy 194.31 150.495)
+			(xy 193.675 150.495) (xy 194.31 150.495)
 		)
 		(stroke
 			(width 0)
@@ -9249,7 +9255,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 142.875) (xy 194.31 142.875)
+			(xy 193.675 142.875) (xy 194.31 142.875)
 		)
 		(stroke
 			(width 0)
@@ -9446,6 +9452,16 @@
 			(type default)
 		)
 		(uuid "3d00d6c0-70aa-4ae3-a71e-86f4d63e40f7")
+	)
+	(wire
+		(pts
+			(xy 95.885 157.48) (xy 90.17 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec904f6-5321-4d9f-8f2a-2a5e455b419a")
 	)
 	(wire
 		(pts
@@ -9699,16 +9715,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 31.115) (xy 52.705 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f2c8b11-69df-43c4-9248-bd2a4883e692")
-	)
-	(wire
-		(pts
 			(xy 81.28 176.53) (xy 69.85 176.53)
 		)
 		(stroke
@@ -9859,7 +9865,7 @@
 	)
 	(wire
 		(pts
-			(xy 51.435 52.07) (xy 52.705 52.07)
+			(xy 45.72 52.07) (xy 52.705 52.07)
 		)
 		(stroke
 			(width 0)
@@ -9926,6 +9932,16 @@
 			(type default)
 		)
 		(uuid "77fa3f66-3e04-47c8-a8bb-f6c54eb70f1c")
+	)
+	(wire
+		(pts
+			(xy 154.305 172.085) (xy 157.48 172.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78a52bd7-8475-4fc6-bc81-5c0e597f9786")
 	)
 	(wire
 		(pts
@@ -10049,6 +10065,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.885 154.94) (xy 95.885 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0906a8-d120-433f-9355-bf886d500636")
+	)
+	(wire
+		(pts
 			(xy 137.795 152.4) (xy 131.445 152.4)
 		)
 		(stroke
@@ -10119,16 +10145,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.705 56.515) (xy 52.705 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90fe6c92-0eb4-4d91-a32e-370d8f6dc6e2")
-	)
-	(wire
-		(pts
 			(xy 245.11 94.615) (xy 245.11 98.425)
 		)
 		(stroke
@@ -10146,6 +10162,16 @@
 			(type default)
 		)
 		(uuid "94dd09c2-d324-4777-b389-4343a7723b3d")
+	)
+	(wire
+		(pts
+			(xy 95.885 162.56) (xy 90.17 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "956a5e10-72b7-4e22-948c-f58659445d17")
 	)
 	(wire
 		(pts
@@ -10379,6 +10405,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.885 160.02) (xy 95.885 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aee8a021-7735-4248-81c2-0d287442bd2f")
+	)
+	(wire
+		(pts
 			(xy 220.345 144.145) (xy 220.345 142.875)
 		)
 		(stroke
@@ -10469,13 +10505,13 @@
 	)
 	(wire
 		(pts
-			(xy 53.975 119.38) (xy 53.975 117.475)
+			(xy 108.585 182.245) (xy 108.585 182.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b6aea56c-2193-4e3a-8e64-88768cadb6b6")
+		(uuid "b53ce294-3a9c-4d51-89f0-ef06fda1ac98")
 	)
 	(wire
 		(pts
@@ -10509,7 +10545,7 @@
 	)
 	(wire
 		(pts
-			(xy 108.585 180.34) (xy 96.52 180.34)
+			(xy 99.695 180.34) (xy 96.52 180.34)
 		)
 		(stroke
 			(width 0)
@@ -10569,7 +10605,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 26.67) (xy 43.815 26.67)
+			(xy 34.29 26.67) (xy 39.37 26.67)
 		)
 		(stroke
 			(width 0)
@@ -10799,6 +10835,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 100.33) (xy 35.56 97.155)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d49ed66c-7fe0-4af1-9ce3-15c5819f32b7")
+	)
+	(wire
+		(pts
 			(xy 137.795 152.4) (xy 142.875 152.4)
 		)
 		(stroke
@@ -10806,6 +10852,16 @@
 			(type default)
 		)
 		(uuid "d5777aaf-a21c-4e08-bfba-0b5aeb1ad56d")
+	)
+	(wire
+		(pts
+			(xy 129.54 172.085) (xy 132.715 172.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d741b309-2b0c-432d-ba37-124ff05965eb")
 	)
 	(wire
 		(pts
@@ -10869,7 +10925,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.655 52.07) (xy 43.815 52.07)
+			(xy 33.655 52.07) (xy 38.1 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10959,7 +11015,7 @@
 	)
 	(wire
 		(pts
-			(xy 51.435 26.67) (xy 52.705 26.67)
+			(xy 46.99 26.67) (xy 52.705 26.67)
 		)
 		(stroke
 			(width 0)
@@ -11066,6 +11122,16 @@
 			(type default)
 		)
 		(uuid "ef7639b3-ad79-4134-a164-4fb9b8711123")
+	)
+	(wire
+		(pts
+			(xy 166.37 172.085) (xy 169.545 172.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc8ce43-b559-4f65-9cfa-f5ce5d9144da")
 	)
 	(wire
 		(pts
@@ -11229,6 +11295,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 172.085) (xy 145.415 172.085)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "feeda8e9-3687-4754-b1bc-f3216322445a")
+	)
+	(wire
+		(pts
 			(xy 220.345 134.62) (xy 220.345 142.875)
 		)
 		(stroke
@@ -11263,7 +11339,7 @@
 	)
 	(global_label "IN2"
 		(shape input)
-		(at 90.17 157.48 0)
+		(at 95.885 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11273,7 +11349,7 @@
 		)
 		(uuid "0cf345fc-bd10-498c-9b3c-25171c9d72a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3 157.48 0)
+			(at 102.015 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11311,7 +11387,7 @@
 	)
 	(global_label "ADC1"
 		(shape input)
-		(at 52.705 31.115 270)
+		(at 49.53 26.67 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11321,7 +11397,7 @@
 		)
 		(uuid "1f0e382d-69c5-4bcb-8606-4e078e561014")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.705 38.9383 90)
+			(at 49.53 34.4933 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11791,7 +11867,7 @@
 	)
 	(global_label "ADC2"
 		(shape input)
-		(at 52.705 56.515 270)
+		(at 48.895 52.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11801,7 +11877,7 @@
 		)
 		(uuid "cb1c9bc4-87e4-4207-8374-d163083183ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 52.705 64.3383 90)
+			(at 48.895 59.8933 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11839,7 +11915,7 @@
 	)
 	(global_label "ADC4"
 		(shape input)
-		(at 53.975 119.38 270)
+		(at 53.975 117.475 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11849,7 +11925,7 @@
 		)
 		(uuid "d0e047de-41bd-4259-8902-6d5a7667ae9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.975 127.2033 90)
+			(at 53.975 125.2983 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11959,7 +12035,7 @@
 	)
 	(global_label "IN1"
 		(shape input)
-		(at 90.17 162.56 0)
+		(at 95.885 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11969,7 +12045,7 @@
 		)
 		(uuid "f8892d44-5a29-4a91-8648-174c7e9882dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.3 162.56 0)
+			(at 102.015 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12399,6 +12475,85 @@
 			(project "Placa Control Fuentes y Carga"
 				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
 					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03e5b3f6-6509-44eb-824b-b2605b538867")
+		(property "Reference" "TP17"
+			(at 68.58 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 71.755 174.4979 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 74.93 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06978e9b-9482-469f-bc41-31d4eeb4591e")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -15229,7 +15384,7 @@
 		(dnp no)
 		(uuid "42e4f7cd-09a8-442b-bd2b-a15991261829")
 		(property "Reference" "U1"
-			(at 44.45 101.6 90)
+			(at 63.5 100.965 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15712,6 +15867,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.885 154.94 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56592904-ad27-4585-827b-92aa4f8cef80")
+		(property "Reference" "TP20"
+			(at 100.33 154.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.9171 156.845 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 95.885 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.885 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.885 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3831df3a-5dd2-4fd5-af7d-9f308aac9966")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 115.57 30.48 270)
 		(unit 1)
@@ -15785,6 +16019,85 @@
 			(project "Placa Control Fuentes y Carga"
 				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 121.285 79.375 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5c01a0fa-c466-4d80-b46b-42f4c6fdfaff")
+		(property "Reference" "TP22"
+			(at 122.555 81.28 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 123.3171 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 121.285 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.285 84.455 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 121.285 79.375 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4eec6980-1c25-442a-9247-00eed48be9e8")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -16398,7 +16711,7 @@
 			)
 		)
 		(property "Value" "Polyfuse MF-R500"
-			(at 38.735 92.71 90)
+			(at 38.735 93.345 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18130,6 +18443,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 88.265 70.485 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d72e0fd-2816-44f8-8e71-38017235c2d1")
+		(property "Reference" "TP21"
+			(at 89.535 72.39 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 90.2971 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 88.265 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.265 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 88.265 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2208d409-2651-4df1-b900-91eec303d8d5")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N4007")
 		(at 121.285 68.58 90)
 		(unit 1)
@@ -19346,6 +19738,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 169.545 172.085 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "96e9cd17-3857-4a22-a22c-72edaf337b1d")
+		(property "Reference" "TP16"
+			(at 168.275 167.005 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 171.45 170.0529 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 174.625 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 174.625 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 169.545 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1461e19d-f13e-422e-b0ab-f6ceabe02462")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 210.82 37.465 90)
 		(unit 1)
@@ -19499,6 +19970,164 @@
 			(project "Placa Control Fuentes y Carga"
 				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 106.68 112.395 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9ae40e4d-7f8b-4d52-911d-80c10641038e")
+		(property "Reference" "TP23"
+			(at 104.775 107.315 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 108.585 110.3629 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 111.76 112.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 112.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 106.68 112.395 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83c27f31-1a3d-4435-8495-1da517c33d2b")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 108.585 182.245 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c75c035-5fed-4f6a-9e29-8481a69332b3")
+		(property "Reference" "TP15"
+			(at 107.315 177.165 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 180.2129 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 113.665 182.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.665 182.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 108.585 182.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ace288de-0d5c-401a-864e-d98a02ab65c8")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -19856,7 +20485,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ea0e9d8-9862-4097-9e7a-cde1bc655ad8")
 		(property "Reference" "#PWR08"
 			(at 70.485 107.315 0)
@@ -19870,7 +20498,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 107.3149 90)
+			(at 66.675 107.315 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20004,7 +20632,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 47.625 26.67 90)
+		(at 43.18 26.67 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20014,7 +20642,7 @@
 		(dnp no)
 		(uuid "a0713c64-de06-4850-8b24-6b65e364a53c")
 		(property "Reference" "R1"
-			(at 48.26 22.86 90)
+			(at 43.815 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20025,7 +20653,7 @@
 			)
 		)
 		(property "Value" "150K"
-			(at 50.165 24.765 90)
+			(at 45.72 24.765 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20036,7 +20664,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 47.625 28.448 90)
+			(at 43.18 28.448 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20047,7 +20675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 47.625 26.67 0)
+			(at 43.18 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20058,7 +20686,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 47.625 26.67 0)
+			(at 43.18 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20726,7 +21354,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 47.625 52.07 90)
+		(at 41.91 52.07 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20736,7 +21364,7 @@
 		(dnp no)
 		(uuid "ac2c2951-7c27-4d1c-8aed-324c4acba0c6")
 		(property "Reference" "R2"
-			(at 48.895 48.26 90)
+			(at 43.18 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20747,7 +21375,7 @@
 			)
 		)
 		(property "Value" "150K"
-			(at 50.165 50.165 90)
+			(at 44.45 50.165 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20758,7 +21386,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 47.625 53.848 90)
+			(at 41.91 53.848 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20769,7 +21397,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 47.625 52.07 0)
+			(at 41.91 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20780,7 +21408,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 47.625 52.07 0)
+			(at 41.91 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20891,7 +21519,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 108.585 180.34 0)
+		(at 99.695 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20901,7 +21529,7 @@
 		(dnp no)
 		(uuid "aeab6203-f306-4f3c-be67-397020907122")
 		(property "Reference" "#PWR018"
-			(at 108.585 184.15 0)
+			(at 99.695 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20912,7 +21540,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 107.95 176.53 0)
+			(at 99.06 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20922,7 +21550,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 108.585 180.34 0)
+			(at 99.695 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20933,7 +21561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 108.585 180.34 0)
+			(at 99.695 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20944,7 +21572,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 108.585 180.34 0)
+			(at 99.695 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21068,6 +21696,85 @@
 			(project "Placa Control Fuentes y Carga"
 				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 145.415 172.085 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af25a59d-ef52-4a29-8a70-d139f12787ce")
+		(property "Reference" "TP12"
+			(at 144.145 167.005 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 147.32 170.0529 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 150.495 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 150.495 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 145.415 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35dd23e5-2535-4c7c-a12b-e192610e4cc6")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -21819,85 +22526,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 52.705 22.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bca2d138-eafd-40fb-85bd-939fc6d1adfb")
-		(property "Reference" "TP12"
-			(at 51.435 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 54.61 20.8279 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 57.785 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.785 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.705 22.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "220f6d32-96a0-4012-a75a-c52dfc3f7036")
-		)
-		(instances
-			(project "Placa Control Fuentes y Carga"
-				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
-					(reference "TP12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TBP01R1-508-02BE:TBP01R1-508-02BE")
 		(at 24.13 158.75 180)
 		(unit 1)
@@ -22556,6 +23184,85 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
+		(at 35.56 100.33 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c74c5d69-de53-4538-885c-2f5847963062")
+		(property "Reference" "TP25"
+			(at 39.37 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 37.5921 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 35.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4b5fcfd-cb1b-4244-974f-3333e09848a6")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
 		(at 137.16 93.345 90)
 		(unit 1)
 		(body_style 1)
@@ -23057,7 +23764,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT300"
+		(property "Footprint" "Damian_PCB:FUSE_MF-R250_BRN"
 			(at 250.19 38.735 0)
 			(hide yes)
 			(show_name no)
@@ -23108,7 +23815,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 186.69 150.495 90)
+		(at 69.85 184.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23116,19 +23823,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d13984d8-b524-46c4-987a-abcb3fdd1b32")
-		(property "Reference" "TP4"
-			(at 180.34 150.495 90)
+		(uuid "d0328e6e-9633-4e46-816e-3e1f863d56b8")
+		(property "Reference" "TP18"
+			(at 73.025 189.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 183.388 147.32 90)
+			(at 67.945 186.1821 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23136,10 +23844,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 186.69 145.415 0)
+			(at 64.77 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23150,7 +23859,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 145.415 0)
+			(at 64.77 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23161,7 +23870,163 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 186.69 150.495 0)
+			(at 69.85 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2209ac93-9de7-483b-9f15-8cccad06e121")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 172.085 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d0b61cf2-8227-4952-a619-75b913b274f6")
+		(property "Reference" "TP14"
+			(at 156.21 167.005 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 159.385 170.0529 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 162.56 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "68e7ad65-fd19-4042-b735-a13244131e0a")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 193.675 150.495 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d13984d8-b524-46c4-987a-abcb3fdd1b32")
+		(property "Reference" "TP4"
+			(at 187.325 150.495 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 190.373 147.32 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 193.675 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.675 145.415 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 193.675 150.495 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23370,85 +24235,6 @@
 			(project "Placa Control Fuentes y Carga"
 				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 52.705 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d501dec3-b1a7-4bef-9a09-0f8cd07abc9d")
-		(property "Reference" "TP11"
-			(at 51.435 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 54.61 46.2279 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 57.785 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.785 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 52.705 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "79ab7f84-15f1-43cf-a81b-38d4037bca5c")
-		)
-		(instances
-			(project "Placa Control Fuentes y Carga"
-				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
-					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -24298,6 +25084,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 132.715 172.085 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7db53f4-70ae-4153-a432-c92ffb12ce30")
+		(property "Reference" "TP11"
+			(at 131.445 167.005 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 134.62 170.0529 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 137.795 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.795 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 132.715 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "659a1ac8-ecbb-4aa6-8ad2-d661d8b117d2")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TBP01R1-508-02BE:TBP01R1-508-02BE")
 		(at 24.13 146.05 180)
 		(unit 1)
@@ -24849,6 +25714,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 95.885 160.02 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f0d3fde0-e869-4379-9613-86b868c42363")
+		(property "Reference" "TP19"
+			(at 100.33 160.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 97.9171 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 95.885 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.885 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 95.885 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7a68b8db-62e2-4e48-a5bd-42dc1e49db94")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:1N47xxA")
 		(at 129.54 175.895 270)
 		(unit 1)
@@ -24931,7 +25875,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 186.69 142.875 90)
+		(at 93.345 102.235 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24939,19 +25883,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f6247adb-7336-4327-b6f9-889747e40355")
-		(property "Reference" "TP3"
-			(at 180.34 142.875 90)
+		(uuid "f336743d-3de9-4804-bcee-2f742e2fedaf")
+		(property "Reference" "TP24"
+			(at 92.075 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 183.388 140.335 90)
+			(at 91.3129 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24959,10 +25904,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
-			(at 186.69 137.795 0)
+			(at 93.345 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24973,7 +25919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 137.795 0)
+			(at 93.345 97.155 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24984,7 +25930,84 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 186.69 142.875 0)
+			(at 93.345 102.235 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5e79dfea-be34-4bd4-95f1-be5ab3f03c1f")
+		)
+		(instances
+			(project "Placa Control Fuentes y Carga"
+				(path "/52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 193.675 142.875 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6247adb-7336-4327-b6f9-889747e40355")
+		(property "Reference" "TP3"
+			(at 187.325 142.875 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 190.373 140.335 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.5mm_Drill1.2mm"
+			(at 193.675 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.675 137.795 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 193.675 142.875 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
