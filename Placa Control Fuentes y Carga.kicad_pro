@@ -648,7 +648,7 @@
         "uuid": "52b4a4ab-3d0b-4a89-b3d7-71d8ddcea017"
       }
     ],
-    "used_designators": "TP11-25",
+    "used_designators": "F2,F5-8,TP11-25,U10,CR1-3,C15-25,#PWR5,#PWR9,#PWR51-55,R22-25",
     "variants": []
   },
   "sheets": [
