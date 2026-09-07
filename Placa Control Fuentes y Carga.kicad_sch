@@ -13929,7 +13929,7 @@
 			)
 		)
 	)
-	(global_label "ADC3"
+	(global_label "ADC5"
 		(shape input)
 		(at 195.58 152.4 90)
 		(fields_autoplaced yes)
@@ -13953,7 +13953,7 @@
 			)
 		)
 	)
-	(global_label "ADC5"
+	(global_label "ADC2"
 		(shape input)
 		(at 219.075 152.4 90)
 		(fields_autoplaced yes)
@@ -14121,7 +14121,7 @@
 			)
 		)
 	)
-	(global_label "ADC2"
+	(global_label "ADC3"
 		(shape input)
 		(at 183.515 152.4 90)
 		(fields_autoplaced yes)
@@ -14158,30 +14158,6 @@
 		(uuid "6534e532-551d-46a1-b44b-4ca91e2859ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 187.7702 38.735 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "DE{slash}RE"
-		(shape input)
-		(at 177.165 48.895 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7082ed2b-c901-4a30-995a-05c9912de074")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.3187 48.895 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14289,7 +14265,7 @@
 			)
 		)
 	)
-	(global_label "ADC2"
+	(global_label "ADC3"
 		(shape input)
 		(at 62.865 72.39 180)
 		(fields_autoplaced yes)
@@ -14409,6 +14385,30 @@
 			)
 		)
 	)
+	(global_label "DE{slash}RE"
+		(shape input)
+		(at 177.165 46.355 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b831c51a-9391-4007-83da-e063cacf136a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.3187 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "PWM"
 		(shape input)
 		(at 95.885 67.31 90)
@@ -14481,7 +14481,7 @@
 			)
 		)
 	)
-	(global_label "ADC5"
+	(global_label "ADC2"
 		(shape input)
 		(at 220.98 47.625 270)
 		(fields_autoplaced yes)
@@ -14553,7 +14553,7 @@
 			)
 		)
 	)
-	(global_label "ADC3"
+	(global_label "ADC5"
 		(shape input)
 		(at 82.55 113.03 0)
 		(fields_autoplaced yes)
