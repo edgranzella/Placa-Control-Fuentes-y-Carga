@@ -57,7 +57,7 @@
           "fill_mode": 0,
           "hatch_gap": 0.25,
           "hatch_orientation": 0.0,
-          "hatch_smoothing_level": 3,
+          "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 0.25,
           "min_clearance": 0.25,

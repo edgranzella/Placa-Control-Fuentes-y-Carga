@@ -10835,6 +10835,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.785 135.255) (xy 184.785 137.795)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07dda66e-151e-4c5d-ac2e-1669ccb8f6a8")
+	)
+	(wire
+		(pts
 			(xy 81.28 55.88) (xy 76.2 55.88)
 		)
 		(stroke
@@ -11275,16 +11285,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.785 132.715) (xy 184.785 137.795)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "281e94bf-1c59-4802-9efb-26768f29c750")
-	)
-	(wire
-		(pts
 			(xy 173.355 104.775) (xy 173.355 89.535)
 		)
 		(stroke
@@ -11692,6 +11692,16 @@
 			(type default)
 		)
 		(uuid "4ba34976-9509-41ce-b341-8f5b751aaee6")
+	)
+	(wire
+		(pts
+			(xy 184.785 130.175) (xy 184.785 132.715)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c250eb3-bf23-4e1f-8b14-7601525427f8")
 	)
 	(wire
 		(pts
@@ -29403,6 +29413,7 @@
 	(symbol
 		(lib_id "TBP01R1-508-02BE:TBP01R1-508-02BE")
 		(at 194.945 132.715 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29412,7 +29423,7 @@
 		(dnp no)
 		(uuid "e66eea01-18c5-4a02-ba1c-c2140767d592")
 		(property "Reference" "J7"
-			(at 196.85 136.525 0)
+			(at 196.85 128.905 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29423,7 +29434,7 @@
 			)
 		)
 		(property "Value" "TBP01R1-508-02BE"
-			(at 185.293 136.652 0)
+			(at 185.293 128.778 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
