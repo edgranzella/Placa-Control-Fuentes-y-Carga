@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "10.0.3"
     },
-    "CreationDate": "2026-09-07T17:28:37-03:00"
+    "CreationDate": "2026-09-08T09:59:45-03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -49,18 +49,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Placa Control Fuentes y Carga-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "Placa Control Fuentes y Carga-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Placa Control Fuentes y Carga-B_Silkscreen.gbr",
-      "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -81,11 +71,6 @@
     {
       "Path": "Placa Control Fuentes y Carga-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "Placa Control Fuentes y Carga-B_Fab.gbr",
-      "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
   ],

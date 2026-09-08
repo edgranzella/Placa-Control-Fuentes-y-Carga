@@ -3458,29 +3458,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -16.764 14.224 0)
+			(property "Reference" "U2"
+				(at 19.685 0.635 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "Relay_Module_WB-083"
-				(at -27.432 11.684 0)
+				(at 17.145 0.635 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Damian_PCB:Relay_Module_WB-083"
 				(at 16.51 -1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3549,8 +3547,8 @@
 					)
 				)
 				(rectangle
-					(start -13.335 1.905)
-					(end -6.985 -1.905)
+					(start -9.525 1.905)
+					(end -3.175 -1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3561,7 +3559,7 @@
 				)
 				(polyline
 					(pts
-						(xy -12.7 -1.905) (xy -7.62 1.905)
+						(xy -8.89 -1.905) (xy -3.81 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -3573,7 +3571,7 @@
 				)
 				(polyline
 					(pts
-						(xy -10.16 5.08) (xy -10.16 1.905)
+						(xy -6.35 5.08) (xy -6.35 1.905)
 					)
 					(stroke
 						(width 0)
@@ -3585,46 +3583,10 @@
 				)
 				(polyline
 					(pts
-						(xy -10.16 -5.08) (xy -10.16 -1.905)
+						(xy -6.35 -5.08) (xy -6.35 -1.905)
 					)
 					(stroke
 						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.985 0) (xy -6.35 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -5.715 0) (xy -5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.445 0) (xy -3.81 0)
-					)
-					(stroke
-						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -3669,18 +3631,6 @@
 				)
 				(polyline
 					(pts
-						(xy -0.635 0) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 -2.54) (xy -1.905 3.81)
 					)
 					(stroke
@@ -3703,10 +3653,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy 1.27 0)
-					)
+				(rectangle
+					(start 0.635 1.905)
+					(end 6.985 -1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -3717,7 +3666,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 0) (xy 2.54 0)
+						(xy 1.27 -1.905) (xy 6.35 1.905)
 					)
 					(stroke
 						(width 0.254)
@@ -3741,10 +3690,10 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 0) (xy 3.81 0)
+						(xy 3.81 5.08) (xy 3.81 1.905)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3753,22 +3702,10 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 0) (xy 5.08 0)
+						(xy 3.81 -5.08) (xy 3.81 -1.905)
 					)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.715 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -3849,6 +3786,22 @@
 				)
 			)
 			(symbol "Relay_Module_WB-083_1_1"
+				(text "IN2"
+					(at -4.826 -4.318 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "IN1\n"
+					(at 5.334 -4.318 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(pin input line
 					(at -22.86 -6.35 0)
 					(length 2.54)
