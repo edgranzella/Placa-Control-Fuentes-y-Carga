@@ -1,0 +1,11 @@
+Trazado a 'C:\Users\dgranzella\Documents\Control de Fuentes y Batería\Placa Control Fuentes y Carga\GerberFiles\Placa Control Fuentes y Carga-F_Cu.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\Control de Fuentes y Batería\Placa Control Fuentes y Carga\GerberFiles\Placa Control Fuentes y Carga-B_Cu.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\Control de Fuentes y Batería\Placa Control Fuentes y Carga\GerberFiles\Placa Control Fuentes y Carga-F_Paste.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\Control de Fuentes y Batería\Placa Control Fuentes y Carga\GerberFiles\Placa Control Fuentes y Carga-F_Silkscreen.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\Control de Fuentes y Batería\Placa Control Fuentes y Carga\GerberFiles\Placa Control Fuentes y Carga-F_Mask.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\Control de Fuentes y Batería\Placa Control Fuentes y Carga\GerberFiles\Placa Control Fuentes y Carga-B_Mask.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\Control de Fuentes y Batería\Placa Control Fuentes y Carga\GerberFiles\Placa Control Fuentes y Carga-Edge_Cuts.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\Control de Fuentes y Batería\Placa Control Fuentes y Carga\GerberFiles\Placa Control Fuentes y Carga-F_Courtyard.gbr'.
+Trazado a 'C:\Users\dgranzella\Documents\Control de Fuentes y Batería\Placa Control Fuentes y Carga\GerberFiles\Placa Control Fuentes y Carga-F_Fab.gbr'.
+Archivo de trabajo Gerber 'C:\Users\dgranzella\Documents\Control de Fuentes y Batería\Placa Control Fuentes y Carga\GerberFiles\Placa Control Fuentes y Carga-job.gbrjob' creado.
+Info: Listo.
